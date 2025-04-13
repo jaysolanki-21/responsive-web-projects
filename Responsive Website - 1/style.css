@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1rem;
+}
+
+main {
+  border: 1px solid black;
+  padding: 1.8rem;
+}
+
+.view1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view1 h1 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  width: 90%;
+}
+.view1 img {
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+}
+
+.view2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view2 .top {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view2 .top .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+.view2 .top .text h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+.view2 .top button {
+  background-color: black;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.8rem;
+  color: white;
+  width: 10rem;
+}
+.view2 .line {
+  width: 100%;
+  height: 1.2px;
+  background-color: black;
+}
+.view2 .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view2 .bottom .elem {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view2 .bottom .elem h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.view2 .bottom .elem .image {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  border-radius: 1rem;
+}
+
+.linemain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  height: 2px;
+  margin-top: 1.5rem;
+}
+
+.view3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.view3 .top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view3 .top h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  width: 30%;
+}
+.view3 .top p {
+  font-size: 1.5rem;
+}
+.view3 .line {
+  width: 100%;
+  height: 1.2px;
+  background-color: black;
+}
+.view3 .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view3 .bottom .video {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.view3 .bottom .video .thumbnail {
+  width: 95%;
+  aspect-ratio: 12/9;
+  border-radius: 1rem;
+  background-color: #dadada;
+}
+.view3 .bottom .video .text h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.view3 .bottom .video .text p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.view4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.view4 .top {
+  display: flex;
+  flex-direction: column;
+}
+.view4 .top .text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view4 .top .text .upperimage {
+  width: 5rem;
+  aspect-ratio: 1/1;
+}
+.view4 .top .text h1 {
+  text-transform: capitalize;
+  font-size: 2.4rem;
+  width: 85%;
+  font-weight: 650;
+}
+.view4 .top p {
+  font-size: 1.3rem;
+}
+.view4 .top .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view4 .top .bottom button {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 0.8rem;
+  width: 10rem;
+}
+
+.view5 {
+  margin-top: 2rem;
+}
+.view5 .top .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.view5 .top .right .contain {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view5 .top .right .contain .imagetext {
+  display: flex;
+}
+.view5 .top .right .contain p {
+  font-size: 1.2rem;
+}
+.view5 .top .right .round {
+  display: flex;
+  gap: 1.3rem;
+}
+.view5 .top .right .round .roundtext {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rem;
+  width: 3rem;
+  aspect-ratio: 1/1;
+}
+.view5 .top .left .footer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view5 .top .left .footer h1 {
+  font-size: 1.8rem;
+}
+.view5 .top .left .footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+.view5 .top .left .footer .links p {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.view5 .top .left .footer .links p:hover {
+  border-bottom: black solid 1px;
+  width: object-fit-content;
+}
+.view5 .top .left .footer button {
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  width: 13rem;
+  font-size: 1rem;
+}
+.view5 .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  padding: 1.7rem;
+}
+
+@media (min-width: 1024px) {
+  .view1 h1 {
+    font-size: 5rem;
+    width: 50%;
+  }
+  .view1 h1 br {
+    display: none;
+  }
+  .view2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .view2 .line {
+    height: initial;
+    width: 4px;
+  }
+  .view2 .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .view2 .top .text h1 {
+    font-size: 4.4rem;
+    margin-left: 1rem;
+    line-height: 4.2rem;
+  }
+  .view2 .bottom {
+    width: 45%;
+  }
+  .view2 .bottom .line {
+    width: 100%; /* Ensures it spans the full width */
+    height: 1px; /* Makes it visible */
+    background-color: black; /* Adds color so it's visible */
+  }
+  .view3 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .view3 .top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+  }
+  .view3 .top h1 {
+    font-size: 3.5rem;
+    width: 30%;
+  }
+  .view3 .line {
+    height: initial;
+    width: 2px;
+  }
+  .view3 .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .view3 .bottom .video .thumbnail {
+    width: 20rem;
+    aspect-ratio: 13/9;
+  }
+  .view4 .top {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+  }
+  .view4 .top .text {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    width: 100%;
+  }
+  .view4 .top .text .image {
+    margin-top: 9rem;
+  }
+  .view4 .top .text h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 5.8rem;
+  }
+  .view4 .top .text p {
+    order: 1;
+  }
+  .view4 .line {
+    background-color: black;
+    height: initial;
+    width: 2px;
+  }
+  .view4 .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30rem;
+    width: 45%;
+  }
+  .view5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .view5 .top {
+    display: flex;
+    flex-direction: row;
+  }
+  .view5 .top .right {
+    width: 35%;
+  }
+  .view5 .top .linemain {
+    height: initial;
+    width: 2px;
+  }
+  .view5 .top .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+  .view5 .top .left .linemain {
+    display: none;
+  }
+  .view5 .top .left .footer h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .view5 .top .left .footer p {
+    font-size: 1rem;
+  }
+  .view5 .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=style.css.map */
